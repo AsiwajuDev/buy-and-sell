@@ -7,8 +7,8 @@ import { ListingsPageComponent } from './listings-page/listings-page.component';
 import { ListingsDetailPageComponent } from './listings-detail-page/listings-detail-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { MyListingsPageComponent } from './my-listings-page/my-listings-page.component';
-import { NewListingsPageComponent } from './new-listings-page/new-listings-page.component';
 import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.component';
+import { NewListingPageComponent } from './new-listing-page/new-listing-page.component';
 
 @NgModule({
   declarations: [
@@ -17,14 +17,11 @@ import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.
     ListingsDetailPageComponent,
     ContactPageComponent,
     MyListingsPageComponent,
-    NewListingsPageComponent,
-    EditListingPageComponent
+    EditListingPageComponent,
+    NewListingPageComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
